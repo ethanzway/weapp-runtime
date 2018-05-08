@@ -1,0 +1,9 @@
+{
+  "name": "weapp-runtime",
+  "description": "A weapp-rumtine polyfill.",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "weapp-regenerator-rumtime": "git+https://github.com/ethanzway/weapp-regenerator-rumtime.git"
+  }
+}
