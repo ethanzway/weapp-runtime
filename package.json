@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "webpack --mode development"
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "weapp-regenerator-rumtime": "git+https://github.com/ethanzway/weapp-regenerator-rumtime.git"
