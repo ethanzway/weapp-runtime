@@ -5,6 +5,8 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.join(__dirname, "dist"),
-    filename: "index.js"
+    filename: "index.js",
+    libraryTarget: 'commonjs2',
+    library: 'runtime'
   }
 };
