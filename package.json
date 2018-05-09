@@ -7,6 +7,7 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "weapp-fetch": "git+https://github.com/ethanzway/weapp-fetch.git",
     "weapp-regenerator-rumtime": "git+https://github.com/ethanzway/weapp-regenerator-rumtime.git"
   },
   "devDependencies": {
